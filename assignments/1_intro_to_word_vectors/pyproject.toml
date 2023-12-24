@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+dependencies = [
+    "jupyter",
+    "matplotlib",
+    "numpy",
+    "ipykernel",
+    "scikit-learn",
+    "nltk",
+    "gensim",
+    "pynvim",
+]
+requires-python = ">=3.11"
+name = "intro-to-word-vectors"
+version = "0.1.0"

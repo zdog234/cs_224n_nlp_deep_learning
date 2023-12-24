@@ -1,0 +1,8 @@
+{
+  "name": "conda-devcontainer",
+  "image": "docker.io/continuumio/miniconda3",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
+
